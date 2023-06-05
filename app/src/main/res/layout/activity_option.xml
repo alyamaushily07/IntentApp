@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/activity_horizontal"
+    android:paddingVertical="@dimen/activity_vertical">
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Warna"
+            android:textStyle="bold"
+            android:textSize="48sp"
+            android:paddingBottom="20sp"
+            android:textColor="@color/black"/>
+        <RadioButton
+            android:id="@+id/redButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:textSize="40sp" />
+        <RadioButton
+            android:id="@+id/greenButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            android:textSize="40sp" />
+        <RadioButton
+            android:id="@+id/blueButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            android:textSize="40sp" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/pilihButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih"
+        android:textSize="20sp"/>
+</LinearLayout>
